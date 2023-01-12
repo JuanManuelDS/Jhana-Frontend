@@ -1,0 +1,68 @@
+nav {
+    background-color: #191716;
+    height: 70px;
+}
+
+.navbar__container {
+    max-width: 1360px;
+    height: 100%;
+}
+
+li {
+    font-size: 1.1rem;
+}
+
+li img {
+    margin-bottom: 3px;
+}
+
+a {
+    color: #E0E2DB;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+a:not(.navbar-brand) {
+    padding: 7px 10px 7px 0px;
+
+}
+
+a.navbar-brand {
+    line-height: 70px;
+}
+
+a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+/*---- NAVBAR TOGGLER COLOR -------*/
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@media (max-width: 576px) {
+    ul {
+        background-color: #292929;
+    }
+
+    a {
+        margin-right: 0px;
+    }
+
+    a.nav-link {
+        margin-right: 0px !important;
+    }
+
+    a:hover {
+        background-color: #80817d;
+    }
+}
